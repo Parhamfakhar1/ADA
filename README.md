@@ -1,12 +1,24 @@
-# ADA
-Adaptive Learning AI - آدا (ADA)
+# Adaptive Learning AI
 
+A professional desktop application that demonstrates **incremental machine learning** with real-time user feedback. Built with PyQt5 and scikit-learn.
 
-این پروژه یک هوش مصنوعی برای یادگیری تطبیقی است که با استفاده از داده‌های ورودی، مدل خودش رو بهبود می‌ده. رابط گرافیکی ساده‌ای با استفاده از PyQt5 طراحی شده که امکان بارگذاری داده، آموزش مدل و مشاهده دقت رو فراهم می‌کنه.
+![Adaptive Learning AI Demo](demo.png)
 
-ویژگی‌ها
-آموزش تطبیقی: استفاده از مدل یادگیری خطی SGDClassifier برای به‌روزرسانی داده‌ها.
-رابط گرافیکی: طراحی‌شده با PyQt5 برای تعامل ساده.
-پشتیبانی از داده‌های CSV: می‌تونی داده‌ها رو از فایل CSV بارگذاری کنی.
-نمایش دقت: محاسبه و نمایش دقت مدل پس از آموزش.
-ابزارها و کتابخانه‌ها
+## ✨ Features
+- Load CSV datasets for supervised learning
+- Train an initial SGD classifier
+- **Add new labeled samples interactively** — model updates instantly!
+- Visualize accuracy over time
+- Save/load trained models
+- Dark-themed modern UI
+
+## 🛠️ Tech Stack
+- Python 3.9+
+- PyQt5 (GUI)
+- scikit-learn (SGDClassifier, StandardScaler)
+- pandas, numpy, matplotlib
+
+## ▶️ How to Run
+```bash
+pip install -r requirements.txt
+python main.py
